@@ -6,13 +6,13 @@ public class BookRepository {
     private ArrayList<Book> books = new ArrayList<Book>();
 
     public BookRepository(){
-        books.add(new Book("83471", "The Dead of Night", "Horror", null,"S.K Eleton" , 10, 5));
-        books.add(new Book("25274", "Castles and Crenellations", "Historical", null,"H.P Anderson", 3,5));
-        books.add(new Book("51573", "The Knight's Sword", "Fantasy", null,"F.E Anvil", 7, 8));
-        books.add(new Book("39662", "Time of Nights", "Romance", null,"A.U Ring", 9,5));
-        books.add(new Book("40831", "Castle Siege", "Historical", null,"N.N Blacksmith", 10, 7));
-        books.add(new Book("61552", "Night and Day", "Mystery", null,"Q.Z. Bizar", 20, 4));
-        books.add(new Book("06917", "Never Time", "Thriller", null,"P.B. Jelliton", 15, 4));
+        books.add(new Book("83471", "The Dead of Night", "Horror", null,"S.K Eleton" , 10, 7));
+        books.add(new Book("25274", "Castles and Crenellations", "Historical", null,"H.P Anderson", 5,1));
+        books.add(new Book("51573", "The Knight's Sword", "Fantasy", null,"F.E Anvil", 4, 0));
+        books.add(new Book("39662", "Time of Nights", "Romance", null,"A.U Ring", 8,2));
+        books.add(new Book("40831", "Castle Siege", "Historical", null,"N.N Blacksmith", 10, 4));
+        books.add(new Book("61552", "Night and Day", "Mystery", null,"Q.Z. Bizar", 9, 3));
+        books.add(new Book("06917", "Never Time", "Thriller", null,"P.B. Jelliton", 18, 6));
     }
 
 
